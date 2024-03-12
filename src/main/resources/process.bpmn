@@ -18,7 +18,7 @@
                 <camunda:entry key="Accept">application/json</camunda:entry>
               </camunda:map>
             </camunda:inputParameter>
-            <camunda:outputParameter name="isHoliday">
+            <camunda:outputParameter name="output1">
               <camunda:script scriptFormat="groovy" resource="externalScript.groovy" />
             </camunda:outputParameter>
           </camunda:inputOutput>
@@ -47,7 +47,7 @@
               </camunda:map>
             </camunda:inputParameter>
             <camunda:outputParameter name="outputToPrint">
-              <camunda:script scriptFormat="groovy" resource="externalScript.groovy" />
+              <camunda:script scriptFormat="groovy" resource="externalScript2.groovy" />
             </camunda:outputParameter>
           </camunda:inputOutput>
           <camunda:connectorId>http-connector</camunda:connectorId>
